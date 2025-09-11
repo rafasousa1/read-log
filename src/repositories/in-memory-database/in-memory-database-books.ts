@@ -19,4 +19,9 @@ export class InMemoryBooksRepository implements BookRepository {
 
         return book
     }
+
+    async searchMany(title: string, page: number) {
+        return this.values.filter(item => item.title.includes(title))
+        .slice(page - 1 * 20, page * 20)
+    }
 }

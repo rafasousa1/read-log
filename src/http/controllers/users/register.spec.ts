@@ -1,8 +1,8 @@
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it, test } from 'vitest'
 import { app } from '@/app'
 import request from 'supertest'
 
-describe('Register', () => {
+describe('Register (e2e)', () => {
     beforeAll(async () => {
         await app.ready()
     })
@@ -16,7 +16,7 @@ describe('Register', () => {
         .post('/users')
         .send({
             name: 'Hugo',
-            email: 'hugoo@email.com',
+            email: 'huggo@email.com',
             password: '123456'
         })
 
