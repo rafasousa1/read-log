@@ -8,7 +8,7 @@ ReadLog.
 
 - [x] Deve ser possível se registrar;
 - [x] Deve ser possível se autenticar (email e senha);
-- [ ] Deve ser possível obter o perfil de um usuário logado;
+- [x] Deve ser possível obter o perfil de um usuário logado;
 - [x] Deve ser possível cadastrar um livro;
 - [x] Deve ser possível o usuários buscar um livro pelo nome;
 - [ ] Deve ser possível o usuário visualizar os livros já lidos;

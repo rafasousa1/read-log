@@ -9,7 +9,7 @@ export default defineConfig({
             extends: true,
             test: {
                 name: 'unit',
-                dir: 'src/use-case'
+                dir: 'src/use-cases'
             }
         },
         {
